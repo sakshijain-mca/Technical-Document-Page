@@ -1,0 +1,58 @@
+@media(max-width:800px){
+body{
+    background: rgb(212, 187, 192);
+}
+}
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    display: flex;
+    margin-left: 1rem;
+    padding: 2rem;
+    
+}
+.main-section>header{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.main-section>p
+{
+    font-size: 1rem;
+    padding:1rem;
+    margin:0.2rem;
+}
+#navbar header{
+    font-size: 1.5rem;
+}
+#navbar ul{
+    margin-top:1rem;
+}
+#navbar ul li
+{
+    width:250px;
+    list-style: none;
+    line-height: 2.5;
+    font-size: 1.2rem;
+}
+#main-doc
+{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding:1rem;
+}
+code{
+    background-color: lightgrey;
+    border-radius: 0.2rem;
+    padding:0.2rem;
+    margin: 1rem;
+}
+
+
